@@ -844,6 +844,7 @@
 			baseConfigurationReference = 00C4052E0FE77688003CE908 /* Shared-IPhone.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = YAJLIOSDevice;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -852,6 +853,7 @@
 			baseConfigurationReference = 00C4052E0FE77688003CE908 /* Shared-IPhone.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = YAJLIOSDevice;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -861,7 +863,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Info copy.plist";
 				PRODUCT_NAME = YAJLIOSSimulator;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -870,7 +872,7 @@
 			baseConfigurationReference = 00C4052E0FE77688003CE908 /* Shared-IPhone.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = YAJLIOSSimulator;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -945,7 +947,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -958,7 +960,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
